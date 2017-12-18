@@ -1,0 +1,64 @@
+.shoppingCar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.shoppingCar .header{
+    width: 100%;
+    height: 0.9rem;
+    line-height: .9rem;
+    display: flex;
+    justify-content: space-between;
+    color:#ccc;
+    border-bottom: 1px solid #ccc;
+}
+.shoppingCar .section{
+    width: 100%;
+    flex:1;
+    overflow-y:scroll;
+    overflow-x: hidden; 
+}
+.shoppingCar .totle{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 0.9rem;
+    bottom:0;
+    left:0;
+    border-top:1px solid #eee;
+    justify-content: space-between; 
+    line-height: .9rem;
+}
+.shoppingCar .all .bgsa {
+    display: inline-block;
+    width: .48rem;
+    height: .48rem;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-left:.1rem; 
+}
+.shoppingCar .all .bgss {
+    display: inline-block;
+    width: .48rem;
+    height: .48rem;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background: url(../../assets/img/8.gif) no-repeat  center center;
+    margin-left:.1rem; 
+}
+.shoppingCar .Settlement strong{
+    padding: .24rem .3rem;
+    height: 100%;
+    background: red;
+    color:#fff;
+    text-align: center;
+}
+.shoppingCar .remove{
+    width: 1.5rem;
+    height: 100%;
+    background: red;
+    color:#fff;
+    text-align: center;
+}

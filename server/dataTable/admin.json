@@ -1,0 +1,20 @@
+{
+    "table_name": "账号注册",
+    "list": [
+        {
+            "user": "18410126282",
+            "userPassword": "0000",
+            "authorization": "admin"
+        },
+        {
+            "user": "18410126283",
+            "userPassword": "0000",
+            "authorization": "visitor"
+        },
+        {
+            "user": "18410126284",
+            "userPassword": "0000",
+            "authorization": "visitor"
+        }
+    ]
+}

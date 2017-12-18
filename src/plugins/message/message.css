@@ -1,0 +1,21 @@
+
+.imessage{
+    background: rgba(0,0,0,.7);
+    top:50%;
+    left:50%;
+    width: 60%;
+    padding: .1rem;
+    text-align: center;
+    color:#fff;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    animation: hide 2s ease-in forwards;
+}
+@keyframes hide {
+    0%,50%{
+        opacity: .7;
+    }
+    100% {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,209 @@
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.home .header{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.14rem 0.14rem 0 0.14rem;
+    flex-shrink: 0;
+}
+.home .header .left{
+    width: 1.2rem;
+}
+.home .header .left img{
+    width: 1.2rem;
+    height: auto;
+    vertical-align: middle;
+    margin: .1rem;
+}
+.home .header .center{
+    flex:1;
+    margin: 0 .1rem;
+    border: 1px solid #ccc;
+    background: #eee;
+    position: relative;
+    border-radius:.1rem; 
+    display: flex;
+}
+.home .header .center span{
+    position: absolute;
+    left:.2rem;
+    top:.2rem;
+}
+.home .header .center input{
+    border: none;
+    background: none;
+    color:#ccc;
+    padding-left:.5rem;  
+    outline: none;
+}
+.home .header .right{
+    width: 1.4rem;
+    text-align: center;
+}
+.section{
+    width: 100%;
+    flex:1;
+    overflow-y: scroll;
+    margin-top:.2rem; 
+}
+.wrapper-img{
+    width: 100%;
+    height: 3.6rem;
+}
+.wrapper-img img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-pagination{
+    width: .4rem;
+    height: .4rem;
+    background: red;
+}
+
+.home-nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.home-nav li{
+    width: 25%;
+    text-align: center;
+}
+.home-nav li img,.home-nav li span{
+    display: block;
+}
+.home-nav li img{
+    width: .9rem;
+    height: .9rem;
+    margin: 0 auto;
+    margin-top:.1rem; 
+}
+.home-nav li span{
+    margin-top:.1rem; 
+}
+.mall-dynamic{
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    border-bottom:2px solid #ccc; 
+}
+.mall-dynamic p{
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+    color:orange;
+}
+.mall-dynamic .dynamic-content{
+    flex:1;
+    height: 1rem;
+    border: 1px solid #ccc;
+    margin-left:.1rem; 
+    border-radius:.1rem;
+    margin-right:.2rem;  
+}
+.preferential{
+    display: flex;
+    padding:0.15rem 0; 
+}
+.preferential span{
+    width: 87%;
+    color:orange;
+    padding-left: .2rem;
+}
+.preferential span img{
+    width: 0.4rem;
+    vertical-align: middle;
+}
+.preferential small{
+    margin-left:.1rem; 
+}
+.preferential p{
+    font-size: 0.22rem;
+}
+.preferential p img{
+    width: .1rem;
+    margin-left:.1rem; 
+    font-size: .2rem;
+    vertical-align: middle;
+}
+
+.special {
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 3px solid #eee;
+}
+.special img{
+    width: 100%;
+    height: 100%;
+}
+.special-left{
+    width: 50%;
+}
+.special-right{
+    width: 50%;
+}
+.special-right .special-right-top{
+    border: 1px solid #eee;
+}
+.special-right .special-right-bottom{
+    border: 1px solid #eee;
+}
+
+.hometown{
+    width: 100%;
+    height: 0.9rem;
+    border-top:2px solid #eee;
+    border-bottom:2px solid #eee;  
+    position: relative;
+}
+.hometown .img1{
+    position: absolute;
+    left:20%;
+    top: 0.45rem;
+}
+.hometown .img2{
+    position: absolute;
+    left:55%;
+    top: 0.45rem;
+}
+.hometown label{
+    position: absolute;
+    left:35%;
+    top:.15rem;
+}
+.hometown label img{
+    width: 0.4rem;
+    height: 0.4rem;
+    vertical-align: middle;
+}
+.hometown a{
+    position: absolute;
+    right: .4rem;
+    margin-top:.2rem; 
+}
+.hometown img{
+    width: .1.5rem;
+    vertical-align: middle;
+}
+
+.commodity{
+    width: 100%;
+    height:5.32rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.more {
+    width: 100%;
+    text-align: center;
+    font-size: .25rem;
+    color: #999999;
+    line-height: .7rem;
+    margin-bottom: 0;
+    overflow: hidden;
+}

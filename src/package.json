@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "element-ui": "^2.0.8",
+    "vuex": "^3.0.1"
+  }
+}
